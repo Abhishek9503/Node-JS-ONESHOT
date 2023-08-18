@@ -11,3 +11,7 @@ console.log(os.release());
 console.log(os.uptime());
 console.log(os.machine());
 console.log(os.type());
+
+
+let chalk = require("chalk")
+console.log(chalk.blue("Hello WOrld"));
